@@ -25,42 +25,6 @@
     <form method="post" action="/" id="form1" enctype="multipart/form-data" class="page_home">
 
 
-
-<script type="text/javascript">
-//<![CDATA[
-var fieldTestVal = 'XC5iaXp8XC5ldXxcLmdkbnxcLnJ1fFwudG9reW98XC53b3JrIHxcP3szLH18MTAwJSBmcmVlfDR1fGFwcGx5IG5vd3xiZSBhbWF6ZWR8Y2xpY2sgaGVyZXxjbGljayB0byBnZXR8ZiByIGUgZXxtZWV0IHNpbmdsZXN8b25saW5lIHBoYXJtYWN5fHBvcm58dGFrZSBhY3Rpb24gbm93fHVybD18c2FyYWhhaGFwcHxjcmVhdGl2ZWJlYXJ0ZWNofGNoaW5hcmVnaXN0cnl8YmxvZ3Nwb3R8eHJ1bWVyfGZvciBzZXh8d2l0aG91dCBkb2N0b3J8dmlhZ3JhfCBjaWFsaXN8Y2lhbGlzIHxleHBpcnl8aHlkcmEtdW5pb258aGVsbG9cLiBhbmQgYnllXC58YmVzdHlvdXR1YmV8eW91dHViZSB0byBtcDR8bWFza3MtaW4tc3RvY2t8W15ceDAwLVx4RkZdfGZsaXBtZS5saW5r';
-var grecaptchaIds = [];
-function captchaCallback(target) {
-    if (target == null) {
-        var grecaptchas = document.querySelectorAll('.g-recaptcha');
-        grecaptchas.forEach(function (el) {
-            let id = grecaptcha.render(el.id, { 'sitekey' : '6Lf5gp4UAAAAAB9DGWcS9XS9zxd0aRGcpPa49ie8' });
-            grecaptchaIds.push({capId:id,elId:el.id});
-        });
-    } else {
-        let id = grecaptcha.render(target, { 'sitekey' : '6Lf5gp4UAAAAAB9DGWcS9XS9zxd0aRGcpPa49ie8' });
-        grecaptchaIds.push({capId:id,elId:target});
-    }
-    
-};
-function resetGrecaptchas() {
-    let reRenderedCaptchas = [];
-    grecaptchaIds.forEach(function (item, i) {
-        try {
-            grecaptcha.getResponse(item.capId);
-        }
-        catch (e) {
-            let newCapId = grecaptcha.render(item.elId, { 'sitekey' : '6Lf5gp4UAAAAAB9DGWcS9XS9zxd0aRGcpPa49ie8' });
-            reRenderedCaptchas.push({newCapId:newCapId,elId:item.elId,oldIndex:i});
-        }
-    });
-    reRenderedCaptchas.forEach(function(cap){
-        grecaptchaIds.splice(cap.oldIndex,1,{capId:cap.newCapId,elId:cap.elId});
-    });
-};
-//]]>
-</script>
-
 <script src="/ScriptResource.axd?d=gV9cuCkFdH0r_rogoTySEST8hKOrCkQZsqhO8QzX7vKQ5WMyzq1c9TNOy9DFW5y-AcPSQAvkcZNoCrFkBW8EDsudtrjDv2BmeVx8tJ7BJxa2Uxt-Wv8z2OXY5mSowQp5-ZwmNVJf4qMa_b8jrnkelFeJu0EfKzMvk4KuYd8WDCU1&amp;t=ffffffffdfc97409" type="text/javascript"></script>
         <div id="fm1_pnlFeaturedItem" class="featuredmessage">
 	
